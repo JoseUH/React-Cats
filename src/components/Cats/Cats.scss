@@ -1,0 +1,12 @@
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+    figure{
+        border:solid 1px black;
+        img{
+            width:18rem;
+            height: 12rem;
+            object-fit: cover;
+        }
+    }
+}
